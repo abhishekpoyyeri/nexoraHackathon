@@ -1,0 +1,58 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error
+
+# Load dataset
+data = pd.read_csv("ml_expense_dataset_5000.csv")
+
+# Convert date
+data['date'] = pd.to_datetime(data['date'])
+
+# Extract month and year
+data['year'] = data['date'].dt.year
+data['month'] = data['date'].dt.month
+
+# Aggregate monthly expenses
+monthly = data.groupby(['user_id','year','month']).agg({
+    'amount':'sum',
+    'income':'mean'
+}).reset_index()
+
+monthly.rename(columns={'amount':'total_expense'}, inplace=True)
+
+# Sort data
+monthly = monthly.sort_values(['user_id','year','month'])
+
+# Previous month expense
+monthly['prev_expense'] = monthly.groupby('user_id')['total_expense'].shift(1)
+
+# Remove first month
+monthly = monthly.dropna()
+
+# Features
+X = monthly[['income','prev_expense','month']]
+y = monthly['total_expense']
+
+# Train test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+# Random Forest model
+model = RandomForestRegressor(
+    n_estimators=300,
+    max_depth=10,
+    random_state=42
+)
+
+# Train
+model.fit(X_train, y_train)
+
+# Predict
+pred = model.predict(X_test)
+
+# Evaluate
+mae = mean_absolute_error(y_test, pred)
+
+print("Mean Absolute Error:", mae)

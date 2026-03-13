@@ -1,0 +1,13 @@
+{
+  "name": "expense-predict-api",
+  "version": "1.0.0",
+  "description": "Node.js API that calls a Python ML model for expense prediction",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "train": "python train_model.py"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
