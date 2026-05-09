@@ -1,3 +1,6 @@
+<img width="2849" height="1534" alt="Screenshot 2026-05-09 162930" src="https://github.com/user-attachments/assets/8729d226-3bac-4862-8bd8-659eba0512fd" />
+
+
 # Nexora - Smart Personal Finance & Expense Tracker
 
 Nexora is an intelligent, AI-powered personal finance and expense tracking application built for a hackathon. It goes beyond simple expense logging by providing OCR-based receipt parsing, machine learning-driven expense predictions, automated categorization, and deep financial insights.
