@@ -1,0 +1,3 @@
+﻿test-tesseract.ts(14,85): error TS2353: Object literal may only specify known properties, and 'tessedit_pageseg_mode' does not exist in type 'Partial<WorkerOptions>'.
+test-tesseract.ts(18,85): error TS2353: Object literal may only specify known properties, and 'tessedit_pageseg_mode' does not exist in type 'Partial<WorkerOptions>'.
+test-tesseract.ts(22,86): error TS2353: Object literal may only specify known properties, and 'tessedit_pageseg_mode' does not exist in type 'Partial<WorkerOptions>'.

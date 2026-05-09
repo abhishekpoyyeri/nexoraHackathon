@@ -1,0 +1,85 @@
+
+
+=== Processing C:\Users\ACER\.gemini\antigravity\brain\5398f315-11ff-46c1-b5c3-bc836d2d634a\media__1773041006535.jpg ===
+--- RAW TESSERACT TEXT ---
+Payment Successful
+To: Anuvind K
+UPI ID: 7994139460@naviaxis @
+seceecseoes ZPaidin 2.67 Seconds cere
+From: Sreejith K
+Kerala Gramin Bank - 9913 @
+15 Feb, 12:52 PM | Ref. No: 200183759357
+Paytm | 3 LIP/P | ~/ YES BANK
+
+--- PARSED RESULT ---
+{
+  "amount": 2.67,
+  "merchant": "Anuvind K",
+  "category": "Other",
+  "date": "15 Feb",
+  "paymentMethod": "UPI",
+  "rawText": "Payment Successful\nTo: Anuvind K\nUPI ID: 7994139460@naviaxis @\nseceecseoes ZPaidin 2.67 Seconds cere\nFrom: Sreejith K\nKerala Gramin Bank - 9913 @\n15 Feb, 12:52 PM | Ref. No: 200183759357\nPaytm | 3 LIP/P | ~/ YES BANK\n"
+}
+
+=== Processing C:\Users\ACER\.gemini\antigravity\brain\5398f315-11ff-46c1-b5c3-bc836d2d634a\media__1773042890121.jpg ===
+--- RAW TESSERACT TEXT ---
+Payment Successful
+To: Anuvind K
+UPI ID: 7994139460@naviaxis @
+seceecseoes ZPaidin 2.67 Seconds cere
+From: Sreejith K
+Kerala Gramin Bank - 9913 @
+15 Feb, 12:52 PM | Ref. No: 200183759357
+Paytm | 3 LIP/P | ~/ YES BANK
+
+--- PARSED RESULT ---
+{
+  "amount": 2.67,
+  "merchant": "Anuvind K",
+  "category": "Other",
+  "date": "15 Feb",
+  "paymentMethod": "UPI",
+  "rawText": "Payment Successful\nTo: Anuvind K\nUPI ID: 7994139460@naviaxis @\nseceecseoes ZPaidin 2.67 Seconds cere\nFrom: Sreejith K\nKerala Gramin Bank - 9913 @\n15 Feb, 12:52 PM | Ref. No: 200183759357\nPaytm | 3 LIP/P | ~/ YES BANK\n"
+}
+
+=== Processing C:\Users\ACER\.gemini\antigravity\brain\5398f315-11ff-46c1-b5c3-bc836d2d634a\media__1773041006535.jpg ===
+--- RAW TESSERACT TEXT (PSM 11) ---
+Payment Successful
+To: Anuvind K
+UPI ID: 7994139460@naviaxis @
+seceecseoes ZPaidin 2.67 Seconds cere
+From: Sreejith K
+Kerala Gramin Bank - 9913 @
+15 Feb, 12:52 PM | Ref. No: 200183759357
+Paytm | 3 LIP/P | ~/ YES BANK
+
+--- PARSED RESULT ---
+{
+  "amount": 2.67,
+  "merchant": "Anuvind K",
+  "category": "Other",
+  "date": "15 Feb",
+  "paymentMethod": "UPI",
+  "rawText": "Payment Successful\nTo: Anuvind K\nUPI ID: 7994139460@naviaxis @\nseceecseoes ZPaidin 2.67 Seconds cere\nFrom: Sreejith K\nKerala Gramin Bank - 9913 @\n15 Feb, 12:52 PM | Ref. No: 200183759357\nPaytm | 3 LIP/P | ~/ YES BANK\n"
+}
+
+=== Processing C:\Users\ACER\.gemini\antigravity\brain\5398f315-11ff-46c1-b5c3-bc836d2d634a\media__1773042890121.jpg ===
+--- RAW TESSERACT TEXT (PSM 11) ---
+Payment Successful
+To: Anuvind K
+UPI ID: 7994139460@naviaxis @
+seceecseoes ZPaidin 2.67 Seconds cere
+From: Sreejith K
+Kerala Gramin Bank - 9913 @
+15 Feb, 12:52 PM | Ref. No: 200183759357
+Paytm | 3 LIP/P | ~/ YES BANK
+
+--- PARSED RESULT ---
+{
+  "amount": 2.67,
+  "merchant": "Anuvind K",
+  "category": "Other",
+  "date": "15 Feb",
+  "paymentMethod": "UPI",
+  "rawText": "Payment Successful\nTo: Anuvind K\nUPI ID: 7994139460@naviaxis @\nseceecseoes ZPaidin 2.67 Seconds cere\nFrom: Sreejith K\nKerala Gramin Bank - 9913 @\n15 Feb, 12:52 PM | Ref. No: 200183759357\nPaytm | 3 LIP/P | ~/ YES BANK\n"
+}
